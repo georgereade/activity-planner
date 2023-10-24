@@ -1,7 +1,7 @@
 import clientPromise from "../lib/mongodb";
 import moment from "moment";
 
-export default function Events({ events }) {
+export default function PlannedEvents({ events }) {
   return (
     <div>
       <h1>Current Events</h1>
